@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị VisitorID từ FingerprintJS</title>
+</head>
+<body>
+    <h1>VisitorID của bạn:</h1>
+    <p id="visitor-id">Đang tải...</p>
+
+    <!-- Nhúng file loader_v3.12.2.js -->
+    <script src="loader_v3.12.2.js"></script>
+
+    <script>
+        // Khởi tạo FingerprintJS (sử dụng biến từ file JS)
+        const fpPromise = __fpjs_p_l_b.load({ apiKey: '8lwJ4LgpUHbTw5MJTsgQ' });
+
+        // Lấy visitorID và hiển thị
+        fpPromise
+            .then(fp => fp.get())
+            .then(result => {
+                const visitorId = result.visitorId;
+                document.getElementById('visitor-id').innerText = visitorId;
+                console.log('VisitorID:', visitorId);  // Xem trong console nếu cần
+            })
+            .catch(error => {
+                console.error('Lỗi:', error);
+                document.getElementById('visitor-id').innerText = 'Lỗi khi tải visitorID: ' + error.message;
+            });
+    </script>
+</body>
+</html>

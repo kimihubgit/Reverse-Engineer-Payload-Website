@@ -1,0 +1,320 @@
+[
+    {
+        "bankid": "0b244715-b182-42f0-81e4-414fc8653bbd",
+        "bankimage": "/img/vi5prod/banks/ced9d345-425c-4cf1-bbe6-3320b525d1bb.png",
+        "banknamefirstletter": "U",
+        "bankname": "UNITED OVERSEAS BANK- UOB"
+    },
+    {
+        "bankid": "13739904-0b34-4371-9dfc-a6ca210edbdd",
+        "bankimage": "/img/vi5prod/banks/383db9c5-6350-4558-a8cf-70f70b8370dc.png",
+        "banknamefirstletter": "V",
+        "bankname": "VRB (VIET NGA)"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500001",
+        "bankurl": "http://www.vietinbank.vn",
+        "bankimage": "/img/static/banks/VND2/VND-2.png",
+        "banknamefirstletter": "V",
+        "bankname": "Vietin Bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500002",
+        "bankurl": "http://www.vietcombank.com.vn",
+        "bankimage": "/img/static/banks/VND2/VND-3.png",
+        "banknamefirstletter": "V",
+        "bankname": "Vietcombank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500003",
+        "bankurl": "http://agribank.com.vn",
+        "bankimage": "/img/static/banks/VND2/VND-4.png",
+        "banknamefirstletter": "A",
+        "bankname": "Agribank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500004",
+        "bankurl": "http://acb.com.vn",
+        "bankimage": "/img/static/banks/VND2/VND-5.png",
+        "banknamefirstletter": "A",
+        "bankname": "ACB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500005",
+        "bankurl": "https://www.techcombank.com.vn",
+        "bankimage": "/img/static/banks/VND2/VND-6.png",
+        "banknamefirstletter": "T",
+        "bankname": "Techcom Bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500006",
+        "bankurl": "http://www.dongabank.com.vn",
+        "bankimage": "/img/static/banks/VND2/VND-7.png",
+        "banknamefirstletter": "D",
+        "bankname": "DongA Bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500007",
+        "bankimage": "/img/static/banks/VND2/VND-8.png",
+        "banknamefirstletter": "V",
+        "bankname": "VBSP"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500009",
+        "bankimage": "/img/static/banks/VND2/VND-10.png",
+        "banknamefirstletter": "C",
+        "bankname": "CB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500010",
+        "bankimage": "/img/static/banks/VND2/VND-11.png",
+        "banknamefirstletter": "O",
+        "bankname": "Oceanbank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500011",
+        "bankimage": "/img/static/banks/VND2/VND-12.png",
+        "banknamefirstletter": "G",
+        "bankname": "GPBank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500012",
+        "bankimage": "/img/static/banks/VND2/VND-13.png",
+        "banknamefirstletter": "T",
+        "bankname": "TPBank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500013",
+        "bankimage": "/img/static/banks/VND2/VND-14.png",
+        "banknamefirstletter": "S",
+        "bankname": "SeABank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500014",
+        "bankimage": "/img/static/banks/VND2/VND-15.png",
+        "banknamefirstletter": "A",
+        "bankname": "ABBANK"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500015",
+        "bankimage": "/img/static/banks/VND2/VND-16.png",
+        "banknamefirstletter": "B",
+        "bankname": "BacABank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500016",
+        "bankimage": "/img/static/banks/VND2/VND-17.png",
+        "banknamefirstletter": "S",
+        "bankname": "SHB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500017",
+        "bankimage": "/img/static/banks/VND2/VND-18.png",
+        "banknamefirstletter": "V",
+        "bankname": "VIBBank, VIB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500018",
+        "bankimage": "/img/vi5prod/banks/7e7cb316-dc06-4797-b2b7-1296563f928c.jpg",
+        "banknamefirstletter": "S",
+        "bankname": "SCB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500019",
+        "bankimage": "/img/static/banks/VND2/VND-20.png",
+        "banknamefirstletter": "S",
+        "bankname": "Saigonbank, SGB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500020",
+        "bankimage": "/img/static/banks/VND2/VND-21.png",
+        "banknamefirstletter": "P",
+        "bankname": "PVcom Bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500021",
+        "bankimage": "/img/static/banks/VND2/VND-22.png",
+        "banknamefirstletter": "S",
+        "bankname": "Sacombank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500022",
+        "bankimage": "/img/static/banks/VND2/VND-23.png",
+        "banknamefirstletter": "V",
+        "bankname": "VietABank, VAB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500023",
+        "bankimage": "/img/static/banks/VND2/VND-24.png",
+        "banknamefirstletter": "B",
+        "bankname": "BaoVietBank, BVB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500024",
+        "bankimage": "/img/static/banks/VND2/VND-25.png",
+        "banknamefirstletter": "V",
+        "bankname": "Vietbank, VB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500025",
+        "bankimage": "/img/static/banks/VND2/VND-26.png",
+        "banknamefirstletter": "P",
+        "bankname": "PG bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500026",
+        "bankimage": "/img/static/banks/VND2/VND-27.png",
+        "banknamefirstletter": "E",
+        "bankname": "Eximbank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500027",
+        "bankimage": "/img/static/banks/VND2/VND-28.png",
+        "banknamefirstletter": "B",
+        "bankname": "BIDV"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500028",
+        "bankimage": "/img/static/banks/VND2/VND-29.png",
+        "banknamefirstletter": "L",
+        "bankname": "LienVietPostBank, LPB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500029",
+        "bankimage": "/img/static/banks/VND2/VND-30.png",
+        "banknamefirstletter": "M",
+        "bankname": "Maritime Bank, MSB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500030",
+        "bankimage": "/img/static/banks/VND2/VND-31.png",
+        "banknamefirstletter": "V",
+        "bankname": "VietCapitalBank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500031",
+        "bankimage": "/img/static/banks/VND2/VND-32.png",
+        "banknamefirstletter": "K",
+        "bankname": "KienLongBank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500032",
+        "bankimage": "/img/static/banks/VND2/VND-33.png",
+        "banknamefirstletter": "N",
+        "bankname": "Nam A Bank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500033",
+        "bankimage": "/img/static/banks/VND2/VND-34.png",
+        "banknamefirstletter": "N",
+        "bankname": "National Citizen Bank, NCB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500034",
+        "bankimage": "/img/static/banks/VND2/VND-35.png",
+        "banknamefirstletter": "V",
+        "bankname": "VPBank"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500035",
+        "bankimage": "/img/static/banks/VND2/VND-36.png",
+        "banknamefirstletter": "O",
+        "bankname": "Orient Commercial Bank, OCB"
+    },
+    {
+        "bankid": "1c1e934f-3929-4916-8db6-867868500036",
+        "bankimage": "/img/vi5prod/banks/b9a0eae9-f25d-4677-bbe9-dc4688c3cb1f.jpg",
+        "banknamefirstletter": "M",
+        "bankname": "Military Bank, MBB"
+    },
+    {
+        "bankid": "2c818024-e4d7-4165-9910-b76081b538e6",
+        "bankimage": "/img/vi5prod/banks/41016a65-e39f-4337-a070-41212774b514.png",
+        "banknamefirstletter": "H",
+        "bankname": "HONG LEONG BANK (HLBVN)"
+    },
+    {
+        "bankid": "306c0fd7-1a4c-4ef8-8623-5741453401a9",
+        "bankimage": "/img/vi5prod/banks/e905f9ca-1cc1-491c-8fa1-bfa67c0dee29.jpg",
+        "banknamefirstletter": "M",
+        "bankname": "MBV"
+    },
+    {
+        "bankid": "515000d0-1802-4a7a-af37-f0b83a370bb9",
+        "bankimage": "/img/vi5prod/banks/09ba5fdf-2317-40a9-be51-948d0c5476bc.webp",
+        "banknamefirstletter": "S",
+        "bankname": "SHINHAN BANK"
+    },
+    {
+        "bankid": "654fe96f-d2c2-4697-832a-90dd9a72f9ae",
+        "bankimage": "/img/vi5prod/banks/fbaea94c-24f1-4ecb-b7fc-a3aa2587f309.jpg",
+        "banknamefirstletter": "I",
+        "bankname": "IVB"
+    },
+    {
+        "bankid": "6662b6d0-7098-4006-b469-f877c12768ac",
+        "bankimage": "/img/vi5prod/banks/81bee02a-e706-4eba-920e-8dba94fd188c.jpg",
+        "banknamefirstletter": "P",
+        "bankname": "Public Bank Berhad"
+    },
+    {
+        "bankid": "817ebee9-8ca2-424c-ac6a-3bd3f0055fa8",
+        "bankimage": "/img/vi5prod/banks/232e04a3-b7bf-4fe9-927d-3a1706ce3a3a.png",
+        "banknamefirstletter": "K",
+        "bankname": "KBANK ( KASIKORNBANK )"
+    },
+    {
+        "bankid": "84740a3a-3f06-47d8-b94a-ad934ec47e3e",
+        "bankimage": "/img/vi5prod/banks/c854bde8-e21e-4427-b8ef-c5972a2e81f8.jpg",
+        "banknamefirstletter": "H",
+        "bankname": "HSBC"
+    },
+    {
+        "bankid": "858ee961-b88c-4acf-9b7a-4968f37d8aeb",
+        "bankimage": "/img/vi5prod/banks/9c8a7e60-c49f-4414-aaa3-90c891f01dcd.png",
+        "banknamefirstletter": "U",
+        "bankname": "UBANK"
+    },
+    {
+        "bankid": "b99e1e2a-ed0c-45dd-842a-db1429fff76e",
+        "bankimage": "/img/vi5prod/banks/2b6af2d7-c1bc-4f7b-86de-a4fbe4a169f6.png",
+        "banknamefirstletter": "C",
+        "bankname": "CIMB"
+    },
+    {
+        "bankid": "c3ae4ea4-adea-49ec-9c9c-088b4aeb5a03",
+        "bankimage": "/img/vi5prod/banks/728ed743-8099-4607-a4a0-33bdada6e505.jpg",
+        "banknamefirstletter": "H",
+        "bankname": "HD BANK"
+    },
+    {
+        "bankid": "c5c145d6-aaa1-4d4f-b526-3ac591908459",
+        "bankimage": "/img/vi5prod/banks/7665e740-01f1-47a9-9827-7f2c4e6cf81c.png",
+        "banknamefirstletter": "T",
+        "bankname": "TIMO BANK"
+    },
+    {
+        "bankid": "d220b3ab-8f86-427b-be7f-0711bb35e7e9",
+        "bankimage": "/img/vi5prod/banks/f9bea958-471f-4c84-9d8f-7bb6c763e11d.jpg",
+        "banknamefirstletter": "L",
+        "bankname": "LioBank"
+    },
+    {
+        "bankid": "e52c0823-4fc8-4fd5-97b6-917eff650d89",
+        "bankimage": "/img/vi5prod/banks/8eead37a-3ebe-486c-97d4-b2b387de8de5.webp",
+        "banknamefirstletter": "W",
+        "bankname": "WOORIBANK"
+    },
+    {
+        "bankid": "f8db4720-1699-4fc2-88b2-142f7c57a5e3",
+        "bankimage": "/img/vi5prod/banks/4acabb67-af8c-407d-9f38-41f9fc10663a.png",
+        "banknamefirstletter": "C",
+        "bankname": "CAKE"
+    },
+    {
+        "bankid": "fcad6d4e-6ad6-4ee1-979a-502815f9105c",
+        "bankimage": "/img/vi5prod/banks/ca5561c7-3d49-4b74-a43f-e4b7fb419971.jpg",
+        "banknamefirstletter": "C",
+        "bankname": "Co-opBank"
+    }
+]

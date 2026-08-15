@@ -1,0 +1,44 @@
+{
+  "name": "akamai-v3-sensor-data-helper",
+  "version": "1.1.0",
+  "description": "A Node.js module for decrypting Akamai v3 sensor data. Check out our web app at https://akamai-v3-tools.vercel.app and read the detailed guide at https://medium.com/@glizzykingdreko/akamai-v3-sensor-data-deep-dive-into-encryption-decryption-and-bypass-tools-da0adad2a784",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src -d dist"
+  },
+  "keywords": [
+    "akamai",
+    "sensor-data",
+    "decryption",
+    "security",
+    "antibot"
+  ],
+  "author": "glizzykingdreko",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/parser": "^7.24.0",
+    "@babel/generator": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glizzykingdreko/akamai-v3-sensor-data-helper"
+  },
+  "bugs": {
+    "url": "https://github.com/glizzykingdreko/akamai-v3-sensor-data-helper/issues"
+  },
+  "homepage": "https://github.com/glizzykingdreko/akamai-v3-sensor-data-helper#readme",
+  "related": {
+    "webapp": "https://akamai-v3-tools.vercel.app",
+    "webappSource": "https://github.com/glizzykingdreko/akamai-v3-tools",
+    "article": "https://medium.com/@glizzykingdreko/akamai-v3-sensor-data-deep-dive-into-encryption-decryption-and-bypass-tools-da0adad2a784"
+  }
+}

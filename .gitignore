@@ -1,0 +1,271 @@
+# ==========================================
+# Reverse Engineering .gitignore
+# ==========================================
+
+# -------------------------
+# OS / Editor
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Build / Compiled
+# -------------------------
+build/
+dist/
+out/
+bin/
+obj/
+target/
+
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.com
+*.msi
+*.elf
+
+# -------------------------
+# Debug / Symbols
+# -------------------------
+*.pdb
+*.dbg
+*.dSYM/
+*.sym
+*.map
+*.ilk
+
+# -------------------------
+# Reverse Engineering Tools
+# -------------------------
+
+# Ghidra
+*.gdt
+*.rep/
+.gnupg/
+ghidra-project/
+
+# IDA Pro
+*.id0
+*.id1
+*.id2
+*.id3
+*.id4
+*.id5
+*.id6
+*.id7
+*.id8
+*.id9
+*.i64
+*.til
+*.nam
+*.pat
+*.idb
+
+# Binary Ninja
+.bndb
+.binaryninja/
+
+# radare2 / rizin
+.r2/
+.rz/
+*.sdb
+
+# x64dbg
+x64dbg.ini
+x32dbg.ini
+
+# dnSpy / .NET decompiler
+dnSpy/
+dnSpyEx/
+*.dmp
+
+# -------------------------
+# Decompiled / Generated
+# -------------------------
+decompiled/
+decompiler-output/
+pseudo/
+pseudocode/
+disassembly/
+asm-output/
+analysis-output/
+generated/
+
+# -------------------------
+# Binary Dumps
+# -------------------------
+dump/
+dumps/
+memory-dump/
+memdump/
+
+*.bin
+*.raw
+*.img
+*.iso
+*.rom
+*.dump
+*.core
+*.crash
+
+# -------------------------
+# Firmware / Embedded
+# -------------------------
+firmware/
+firmwares/
+extracted-firmware/
+firmware-output/
+
+# -------------------------
+# Packet Captures
+# -------------------------
+*.pcap
+*.pcapng
+*.cap
+
+# -------------------------
+# Network / Proxy captures
+# -------------------------
+mitmproxy/
+burp/
+wireshark/
+
+# -------------------------
+# VM / Sandbox
+# -------------------------
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.qcow
+*.qcow2
+*.ova
+*.ovf
+*.vmem
+*.sav
+
+.virtualbox/
+.vagrant/
+
+# -------------------------
+# Frida
+# -------------------------
+.frida/
+frida-cache/
+*.frida
+
+# -------------------------
+# Dynamic Analysis
+# -------------------------
+logs/
+log/
+traces/
+trace/
+screenshots/
+
+# -------------------------
+# Malware / Sample Files
+# -------------------------
+samples/
+malware/
+malware-samples/
+benign-samples/
+
+# Don't accidentally commit executables
+*.exe
+*.dll
+*.sys
+*.scr
+*.com
+*.msi
+*.apk
+*.ipa
+*.jar
+*.war
+
+# -------------------------
+# Secrets / Credentials
+# -------------------------
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+
+credentials/
+secrets/
+private/
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# -------------------------
+# Node.js
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# Temporary files
+# -------------------------
+tmp/
+temp/
+.cache/
+cache/
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+
+# -------------------------
+# Large files
+# -------------------------
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# -------------------------
+# Reports / Results
+# -------------------------
+reports/
+results/
+analysis-results/
+
+# -------------------------
+# Personal notes
+# -------------------------
+notes-private/
+TODO.private.md
+research-private.md

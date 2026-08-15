@@ -1,0 +1,61 @@
+const crypto = require('crypto');
+const fs = require('fs');
+const path = require('path');
+
+async function cryptoDigest(inputData) {
+  let dataBytes;
+  if (typeof inputData === 'string') {
+    dataBytes = stringToByteArray(inputData);
+  } else {
+    dataBytes = new Uint8Array(inputData);
+  }
+  const hashBuffer = crypto.createHash('SHA-256').update(dataBytes).digest();
+
+  return new Uint8Array(hashBuffer);
+}
+
+function stringToByteArray(str) {
+  const encoder = new TextEncoder();
+  return encoder.encode(str);
+}
+
+
+function base64ToBuffer(base64String) {
+  return Buffer.from(base64String, 'base64');
+}
+
+async function decryptAesGcm(inputBase64, keyBytes) {
+  const buffer = base64ToBuffer(inputBase64);
+  console.log('Buffer length:', buffer.length);
+  if (buffer.length < 28) {
+    console.log("Dữ Liệu Đầu Vào Quá Ngắn");
+    return
+  }
+  const iv = buffer.slice(0, 12);
+  const ciphertextWithTag = buffer.slice(12);
+  const tag = ciphertextWithTag.slice(-16);
+  const ciphertext = ciphertextWithTag.slice(0, -16);
+  const keyBuffer = Buffer.from(keyBytes);
+  if (keyBuffer.length !== 32) {
+    console.log("Key không đúng độ dài: Phải 32 bytes cho AES-256-GCM");
+    return
+  }
+  const decipher = crypto.createDecipheriv('aes-256-gcm', keyBuffer, iv);
+  decipher.setAuthTag(tag);
+
+  let plaintext = decipher.update(ciphertext);
+  plaintext = Buffer.concat([plaintext, decipher.final()]);
+  const decoded = plaintext.toString('utf8');
+  return JSON.parse(decoded);
+}
+
+
+(async () => {
+  let X_HD_Client = "c5e31d5915661de4393e3f1489b00ebc4497dd48"
+  let key = "zb0DgFh7I1IU8hLNbqcgXl7KweD+VksDyFRozLU6lHhlJVU2FqwqiSFRKWZxuTfUECbVyiSCJrfDes+x762bZIlng8/U+dURJrUCMtGBZg0V2NLISYkekQV36Zodd4T+dTXHnSLUMTBgJZ/9EgN2dxF78QAUhnFW2KX1wq4LxC6DjMMxIuQNP9r4QkOcWqRE+m9yBNlLvDhrGWKqog9s1d100+hpcyJDV9ybCW42BTIj4iRYZC7few/XK16VpOmyUaN7osJDDkMMSQiHQruLj42eIlyzfPkvBN3PxX6gNFWh9+L9O5lOV3qvqIlNEH+C4PU3L4os+T1rphGNEJAxvlOyQ1D57gOF+ZjseVa15FGFNPsDQUpIHLktgEQgsjrSSCc6C+v2QGv7g8025D/bRBVlDkJzOcm6AGi7UssJrL22BonTqUDVsk5fxvIHGbfvkDjfQarB/gIPHDYmR9V11DyyoXPJe3IrDQYN1i0dH4ioiZiHYO66utQ4ZtARMV/gYKDv4nFyOPXwwEN64EFQjytCDcDyJxIHpDByqFaJL8xC/CDy9126k/q/7TVtkuJHIfHtt+hnMGGepdBWYhMAJmA50MffqRrZjgs/OlbNYf+ex+zWFUiFJ8eGbUtduEe43HboPn9LT0yNCuuhLbZcC7q01gTGA0pWTcq4/1vXgaQLtIekIus08ffYGXQoycspGFtanXI743W4ZJEKt+Hcf9Dqm1SSuJQjEJn+Ok0gOF5kDiwugg==" + X_HD_Client
+  let byte = "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"
+  const KeyHash = await cryptoDigest(key);
+  const result = await decryptAesGcm(byte, KeyHash);
+  console.log('Kết quả JSON:', result);
+
+})();

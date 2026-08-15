@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@babel/generator": "^7.28.5",
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@faker-js/faker": "^10.1.0",
+    "canvas": "^3.2.1",
+    "crypto": "^1.0.1",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "jsdom": "^27.2.0",
+    "jsencrypt": "^3.5.4",
+    "node-rsa": "^1.1.1",
+    "open": "^10.2.0",
+    "path": "^0.12.7",
+    "puppeteer": "^24.30.0",
+    "user-agents": "^1.1.669"
+  }
+}

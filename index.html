@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Visitor ID</title>
+</head>
+<body>
+    <h1>Visitor ID của trình duyệt bạn</h1>
+    <p>Thông tin sẽ hiển thị dưới đây sau khi load.</p>
+    <div id="result" style="font-size: 20px; word-break: break-all;"></div>
+
+    <script async src="https://openfpcdn.io/fingerprintjs/v5"
+            onload="initFingerprintJS()"></script>
+    <script>
+        function initFingerprintJS() {
+            FingerprintJS.load()
+                .then(fp => fp.get())
+                .then(result => {
+                    const visitorId = result.visitorId;
+                    console.log('Visitor ID:', visitorId);
+                    document.getElementById('result').innerText = 'Visitor ID: ' + visitorId + '\n\nChi tiết thông tin thu thập: ' + JSON.stringify(result.components, null, 2);
+                })
+                .catch(error => {
+                    console.error('Lỗi:', error);
+                    document.getElementById('result').innerText = 'Lỗi khi sinh ID: ' + error.message;
+                });
+        }
+    </script>
+</body>
+</html>
